@@ -16,3 +16,25 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: ProximaCondensed;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+  font-family: ProximaThin;
+  src: url(../css/fonts/Proxima-Nova-Thin.otf);
+}
+
+#app {
+  max-width: $content-width;
+  margin: 0 auto;
+  //min-height: 200px;
+  // background-color: purple;
+}

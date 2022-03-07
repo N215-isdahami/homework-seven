@@ -1,0 +1,31 @@
+nav {
+  max-width: $content-width;
+  margin: 0 auto;
+  //background-color: $site-background;
+  border-bottom: 2px solid $site-black;
+  min-height: $nav-footer-height;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    width: 100px;
+    height: 50px;
+    //background-color: purple;
+  }
+
+  .links {
+    a {
+      text-decoration: none;
+      margin-left: 20px;
+      color: $site-black;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    span {
+      color: $site-blue;
+      margin: 0 20px;
+    }
+  }
+}

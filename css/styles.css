@@ -19,59 +19,121 @@ p {
   margin-bottom: 16px;
 }
 
-.wrapper {
-  min-height: 800px;
-  width: 70%;
-  background-color: beige;
+@font-face {
+  font-family: GillSans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: ProximaCondensed;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: ProximaThin;
+  src: url(../css/fonts/Proxima-Nova-Thin.otf);
+}
+#app {
+  max-width: 980px;
   margin: 0 auto;
-}
-.wrapper .box {
-  width: 50%;
-  height: 200px;
-  background-color: aqua;
-}
-.wrapper .media-box {
-  width: 600px;
-  height: 100px;
-  background-color: brown;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 800px) {
-  .wrapper {
-    background-color: red;
-  }
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
 }
-@media all and (max-width: 600px) {
-  .wrapper .media-box {
-    width: 300px;
-  }
+.about .about-header h1 {
+  margin-bottom: 5px;
+  font-family: "Gill Sans";
 }
-.photos {
-  max-width: 940px;
-  min-height: 300px;
-  background-color: aqua;
+.about .about-header hr {
+  width: 177px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about .about-header p {
+  font-family: "Gill Sans";
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-size: 40px;
+  font-family: "Gill Sans";
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 22px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans";
+  font-style: italic;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+  font-family: "Gills Sans";
+  font-size: 20px;
+}
+
+nav {
+  max-width: 980px;
   margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  min-height: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.photos .photo {
-  width: 300px;
+nav .logo {
+  width: 100px;
+  height: 50px;
 }
-.photos .photo img {
-  display: block;
+nav .links a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.photos .photo p {
-  font-size: 11px;
-  font-style: italic;
-  text-align: center;
+nav .links span {
+  color: #79addc;
+  margin: 0 20px;
 }
 
-@media screen and (max-width: 1000px) {
-  .photos {
-    width: 300px;
-    flex-direction: column;
-    min-height: 940px;
-  }
+.footEnd {
+  height: 60px;
+  max-width: 100%;
+  background-color: #79addc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.footEnd .copyRight {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.footEnd .coLogos {
+  display: flex;
+  align-items: right;
 }
 
 /*# sourceMappingURL=styles.css.map */
