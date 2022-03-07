@@ -114,6 +114,14 @@ nav .links span {
   margin: 0 20px;
 }
 
+@media screen and (max-width: 1000px) {
+  nav .logo {
+    float: none;
+    width: 100%;
+    flex-direction: column;
+    flex: 50%;
+  }
+}
 .footEnd {
   height: 60px;
   max-width: 100%;
@@ -134,6 +142,17 @@ nav .links span {
 .footEnd .coLogos {
   display: flex;
   align-items: right;
+}
+
+@media screen and (max-width: 700px) {
+  .footEnd {
+    float: none;
+    width: 100%;
+    flex: 50%;
+  }
+  .footEnd .copyRight {
+    margin-left: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

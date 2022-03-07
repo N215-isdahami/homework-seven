@@ -29,3 +29,14 @@ nav {
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  nav {
+    .logo {
+      float: none;
+      width: 100%;
+      flex-direction: column;
+      flex: 50%;
+    }
+  }
+}
