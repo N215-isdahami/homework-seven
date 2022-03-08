@@ -45,7 +45,7 @@ p {
   font-family: "Gill Sans";
 }
 .about .about-header hr {
-  width: 177px;
+  width: 100px;
   border: 1px solid;
   margin-bottom: 36px;
 }
@@ -58,6 +58,11 @@ p {
 .about .about-client-quotes .client-quote-title {
   font-size: 40px;
   font-family: "Gill Sans";
+}
+.about .about-client-quotes hr {
+  width: 240px;
+  border: 1px solid;
+  margin-bottom: 36px;
 }
 .about .about-client-quotes .client-box {
   max-width: 722px;
@@ -114,7 +119,7 @@ nav .links span {
   margin: 0 20px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   nav .logo {
     float: none;
     width: 100%;
@@ -123,7 +128,7 @@ nav .links span {
   }
 }
 .footEnd {
-  height: 60px;
+  min-height: 60px;
   max-width: 100%;
   background-color: #79addc;
   display: flex;
@@ -134,7 +139,12 @@ nav .links span {
   font-weight: bold;
   padding-left: 5px;
 }
+.footEnd .footLogo {
+  display: flex;
+  margin-left: 170px;
+}
 .footEnd .copyRight {
+  min-height: 100%;
   display: flex;
   align-items: center;
   color: white;
@@ -142,9 +152,10 @@ nav .links span {
 .footEnd .coLogos {
   display: flex;
   align-items: right;
+  margin-right: 170px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .footEnd {
     float: none;
     width: 100%;
