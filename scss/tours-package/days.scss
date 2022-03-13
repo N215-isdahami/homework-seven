@@ -1,0 +1,43 @@
+.days {
+  margin-top: 110px;
+  margin-bottom: 180px;
+
+  .days-header {
+    h1 {
+      margin-bottom: 5px;
+      // font-family: "Gill Sans";
+    }
+    hr {
+      width: 70px;
+      border: 1px solid;
+      margin-bottom: 36px;
+    }
+    p {
+      font-family: "Gill Sans";
+      margin-bottom: 50px;
+    }
+    .book-btn {
+      background-color: $site-background;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 15px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      margin-left: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .days {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .book-btn {
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

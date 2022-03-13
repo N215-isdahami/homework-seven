@@ -1,0 +1,44 @@
+.tours-package-images {
+  max-width: $content-width;
+  min-height: 304px;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 100px;
+
+  .usa-image-one {
+    @include usa-image-one();
+  }
+
+  .usa-image-two {
+    @include usa-image-two();
+  }
+
+  .usa-image-three {
+    @include usa-image-three();
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tours-package-images {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+    margin-left: 200px;
+    // background-color: red;
+
+    .usa-image-one {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .usa-image-two {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .usa-image-three {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

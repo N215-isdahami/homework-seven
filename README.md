@@ -1,12 +1,11 @@
-# homework-five
+# homework-six
 
 ##
 
-This homework assignment will:
+You must create a project named homework-six.
+Your tour page must look like the prototype. Your text must look good inside each image.
+Each individual page must look like the prototype and the text inside the header image must stay in place and the rest of the page must be responsive.
+Your page must be responsive.
+You can align the elements as you wish but they must look good and not touch the sides of the browser.
 
-Teach you how to make your site responsive
-Teach you how to deal with images next to text.
-Use media queries
-Use percentages
-
-link: https://in-info-web4.informatics.iupui.edu/~isdahami/homework-five/index.html
+link: https://in-info-web4.informatics.iupui.edu/~isdahami/homework-six/index.html

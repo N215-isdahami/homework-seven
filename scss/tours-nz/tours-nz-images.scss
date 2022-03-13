@@ -1,0 +1,44 @@
+.tours-package-images {
+  max-width: $content-width;
+  min-height: 304px;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 100px;
+
+  .nz-image-one {
+    @include nz-image-one();
+  }
+
+  .nz-image-two {
+    @include nz-image-two();
+  }
+
+  .nz-image-three {
+    @include nz-image-three();
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tours-package-images {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+    margin-left: 200px;
+    // background-color: red;
+
+    .nz-image-one {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .nz-image-two {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .nz-image-three {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

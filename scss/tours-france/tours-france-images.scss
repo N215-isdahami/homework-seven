@@ -1,0 +1,44 @@
+.tours-package-images {
+  max-width: $content-width;
+  min-height: 304px;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 100px;
+
+  .france-image-one {
+    @include france-image-one();
+  }
+
+  .france-image-two {
+    @include france-image-two();
+  }
+
+  .france-image-three {
+    @include france-image-three();
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tours-package-images {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+    margin-left: 200px;
+    // background-color: red;
+
+    .france-image-one {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .france-image-two {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .france-image-three {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

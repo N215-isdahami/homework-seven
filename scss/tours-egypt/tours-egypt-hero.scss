@@ -1,0 +1,26 @@
+.tours-egypt-hero {
+  @include tours-egypt-hero();
+
+  .tours-package-hero-text {
+    position: absolute;
+    font-size: 50px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .tours-package-price-text {
+    position: absolute;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-style: italic;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tours-egypt-hero {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

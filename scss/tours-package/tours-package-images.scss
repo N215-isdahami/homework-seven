@@ -1,0 +1,74 @@
+.tours-package-images {
+  max-width: $content-width;
+  min-height: 304px;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 100px;
+
+  .tours-image-one {
+    height: 304px;
+    width: 235px;
+    background-color: #d2b48c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/israel-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tours-image-two {
+    height: 304px;
+    width: 235px;
+    background-color: #d2b48c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/israel-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tours-image-three {
+    height: 304px;
+    width: 235px;
+    background-color: #d2b48c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/israel-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tours-package-images {
+    width: 300px;
+    flex-direction: column;
+    min-height: 940px;
+    margin-left: 200px;
+    // background-color: red;
+
+    .tours-image-one {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .tours-image-two {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .tours-image-three {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

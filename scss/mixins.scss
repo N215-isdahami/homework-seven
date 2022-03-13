@@ -1,0 +1,464 @@
+// ISRAEL HERO MIXIN
+@mixin tours-package-hero($bgIsraelHeroImage: url(../images/tour-01.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgIsraelHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+// END OF ISRAEL MIXIN
+
+// START OF USA MIXIN !!
+@mixin tours-usa-hero($bgUSAHeroImage: url(../images/tour-02.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgUSAHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin usa-image-one($bgUSAImageOne: url(../images/usa-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgUSAImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin usa-image-two($bgUSAImageTwo: url(../images/usa-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgUSAImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin usa-image-three($bgUSAImageThree: url(../images/usa-tour-03.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgUSAImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// END OF USA MIXIN !!
+
+// START OF AUS MIXIN !!
+@mixin tours-aus-hero($bgAusHeroImage: url(../images/tour-03.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgAusHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin aus-image-one($bgAusImageOne: url(../images/aus-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgAusImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin aus-image-two($bgAusImageTwo: url(../images/aus-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgAusImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin aus-image-three($bgAusImageThree: url(../images/aus-tour-03.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgAusImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// END OF AUS MIXIN
+
+// START OF NZ MIXIN
+@mixin tours-nz-hero($bgNzHeroImage: url(../images/tour-04.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgNzHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin nz-image-one($bgNzImageOne: url(../images/nz-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgNzImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin nz-image-two($bgNzImageTwo: url(../images/nz-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgNzImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin nz-image-three($bgNzImageThree: url(../images/nz-tour-03.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgNzImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// END OF NZ MIXIN !!
+
+// START OF FRANCE MIXIN !!
+@mixin tours-france-hero($bgFranceHeroImage: url(../images/tour-05.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgFranceHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin france-image-one($bgFranceImageOne: url(../images/france-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgFranceImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin france-image-two($bgFranceImageTwo: url(../images/france-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgFranceImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin france-image-three(
+  $bgFranceImageThree: url(../images/france-tour-03.jpg)
+) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgFranceImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// END OF FRANCE MIXIN !!
+
+// START OF EGYPT MIXIN !!
+@mixin tours-egypt-hero($bgEgyptHeroImage: url(../images/tour-06.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgEgyptHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin egypt-image-one($bgEgyptImageOne: url(../images/egypt-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgEgyptImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin egypt-image-two($bgEgyptImageTwo: url(../images/egypt-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgEgyptImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin egypt-image-three($bgEgyptImageThree: url(../images/egypt-tour-03.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgEgyptImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// END OF EGYPT MIXIN !!
+
+// START OF JAPAN MIXIN !!
+@mixin tours-japan-hero($bgJapanHeroImage: url(../images/tour-07.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgJapanHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin japan-image-one($bgJapanImageOne: url(../images/japan-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgJapanImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin japan-image-two($bgJapanImageTwo: url(../images/japan-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgJapanImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin japan-image-three($bgJapanImageThree: url(../images/japan-tour-03.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgJapanImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// END OF JAPAN MIXIN !!
+
+// START OF CANADA MIXIN !!
+@mixin tours-canada-hero($bgCanadaHeroImage: url(../images/tour-08.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgCanadaHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin canada-image-one($bgCanadaImageOne: url(../images/canada-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgCanadaImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin canada-image-two($bgCanadaImageTwo: url(../images/canada-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgCanadaImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin canada-image-three(
+  $bgCanadaImageThree: url(../images/canada-tour-03.jpg)
+) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgCanadaImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+// END OF CANADA MIXIN !!
+
+// START OF UAE MIXIN !!
+@mixin tours-uae-hero($bgUaeHeroImage: url(../images/tour-09.jpg)) {
+  max-width: $content-width;
+  height: 300px;
+  background-image: $bgUaeHeroImage;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-top: 48px;
+}
+
+@mixin uae-image-one($bgUaeImageOne: url(../images/uae-tour-01.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgUaeImageOne;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin uae-image-two($bgUaeImageTwo: url(../images/uae-tour-02.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgUaeImageTwo;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin uae-image-three($bgUaeImageThree: url(../images/uae-tour-03.jpg)) {
+  height: 304px;
+  width: 235px;
+  background-color: #d2b48c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $bgUaeImageThree;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
