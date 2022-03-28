@@ -1,0 +1,118 @@
+.contact-wrapper {
+  width: $content-width;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  // background-color: red;
+
+  h1 {
+    font-size: 30px;
+  }
+
+  hr {
+    width: 160px;
+    border: 1px solid;
+    margin-bottom: 50px;
+  }
+
+  .contact-box {
+    display: flex;
+    justify-content: space-between;
+
+    .contact-map {
+      width: 400px;
+      margin-bottom: 50px;
+      margin-top: 20px;
+
+      img {
+        width: 400px;
+        height: 442px;
+        margin-bottom: 34px;
+        object-fit: cover;
+      }
+
+      .map-text {
+        margin: 0;
+        font-size: 18px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    }
+  }
+
+  .contact-form {
+    .form-text-input {
+      width: 529px;
+      margin-bottom: 20px;
+
+      input {
+        width: 529px;
+        height: 60px;
+        background-color: rgb(235, 235, 235);
+        border: none;
+        border-color: $site-blue;
+        padding: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    }
+
+    .form-text-message-input {
+      width: 529px;
+      margin-bottom: 20px;
+
+      input {
+        width: 529px;
+        height: 220px;
+        background-color: rgb(235, 235, 235);
+        border: none;
+        border-color: $site-blue;
+        padding: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    }
+
+    .btn-message {
+      width: 168px;
+      height: 60px;
+      background-color: $site-blue;
+      text-align: center;
+      padding: 20px;
+      color: $site-white;
+      font-size: 16px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    // background-color: aqua;
+
+    h1 {
+      margin-left: 20px;
+    }
+
+    hr {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .contact-box {
+      flex-direction: column;
+      background-color: red;
+
+      .contact-form {
+        flex-direction: column;
+        .btn-message {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}

@@ -36,6 +36,617 @@ p {
   margin: 0 auto;
 }
 
+.banner {
+  max-width: 100%;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -100px auto 0 auto;
+}
+.banner .heroH1 h1 {
+  text-align: center;
+  position: relative;
+  padding-top: 162px;
+  color: white;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.banner .heroText p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-family: GillSans;
+  font-style: italic;
+}
+.banner .heroReadMore {
+  background-color: #79addc;
+  width: 122px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 48px;
+  text-decoration: none;
+}
+.banner .heroReadMore span {
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 12px;
+}
+.banner .heroReadMore a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.bookForm {
+  width: 980px;
+  min-height: 400px;
+  padding: 50px;
+  margin: 0 auto;
+}
+.bookForm .content-wrapper h1 {
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.bookForm .content-wrapper form {
+  width: 100%;
+}
+.bookForm .content-wrapper form .textInputs {
+  width: 100%;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs {
+  width: 100%;
+  height: 100%;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .topTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .topTwo input {
+  width: 415px;
+  height: 58px;
+  font-size: 18px;
+  font-family: GillSans;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .bottomTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .firstFourInputs .bottomTwo input {
+  width: 415px;
+  height: 58px;
+  font-size: 18px;
+  font-family: GillSans;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .check {
+  font-size: 18px;
+  font-family: GillSans;
+}
+.bookForm .content-wrapper form .textInputs .check .checkIn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .check .checkIn label {
+  width: 110px;
+  height: 25px;
+  margin-right: 25px;
+}
+.bookForm .content-wrapper form .textInputs .check .checkIn input {
+  width: 700px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .check .checkOut {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .check .checkOut label {
+  width: 110px;
+  margin-right: 25px;
+}
+.bookForm .content-wrapper form .textInputs .check .checkOut input {
+  width: 700px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .numbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .adult {
+  width: 30%;
+  font-size: 18px;
+  font-family: GillSans;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .adult input {
+  width: 100px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .numbers .children {
+  width: 30%;
+  font-size: 18px;
+  font-family: GillSans;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .children input {
+  width: 100px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .numbers .rooms {
+  width: 30%;
+  font-size: 18px;
+  font-family: GillSans;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookForm .content-wrapper form .textInputs .numbers .rooms input {
+  width: 100px;
+  height: 58px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .textInputs .comments {
+  width: 100%;
+  font-size: 18px;
+  font-family: GillSans;
+}
+.bookForm .content-wrapper form .textInputs .comments input {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #79addc;
+}
+.bookForm .content-wrapper form .submitButton {
+  width: 100%;
+}
+.bookForm .content-wrapper form .submitButton .book-submit {
+  height: 60px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #79addc;
+  border-radius: 50px;
+  border: none;
+}
+
+.trips {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: -50px;
+  min-height: 304px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.trips .tripIsrael {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.trips .tripIsrael h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.trips .tripIsrael p {
+  text-align: center;
+  font-size: 30px;
+  font-family: ProximaCondensed;
+}
+.trips .tripUSA {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.trips .tripUSA h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.trips .tripUSA p {
+  text-align: center;
+  font-size: 30px;
+  font-family: ProximaCondensed;
+}
+.trips .tripAustrailia {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.trips .tripAustrailia h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: ProximaExtraCondensed;
+}
+.trips .tripAustrailia p {
+  text-align: center;
+  font-size: 30px;
+  font-family: ProximaCondensed;
+}
+.trips .learnMore {
+  width: 121px;
+  padding: 5px 5px;
+  margin-top: 40px;
+  background-color: #79addc;
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+  border-radius: 27px;
+  text-align: center;
+}
+
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  margin-bottom: 5px;
+  font-family: "Gill Sans";
+}
+.about .about-header hr {
+  width: 100px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about .about-header p {
+  font-family: "Gill Sans";
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-size: 40px;
+  font-family: "Gill Sans";
+}
+.about .about-client-quotes hr {
+  width: 240px;
+  border: 1px solid;
+  margin-bottom: 36px;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 22px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+  font-family: "Gill Sans";
+  font-style: italic;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+  font-family: "Gills Sans";
+  font-size: 20px;
+}
+
+.special-offers-wrapper {
+  max-width: 980px;
+  padding-top: 105px;
+}
+.special-offers-wrapper h1 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.special-offers-wrapper hr {
+  width: 230px;
+  border: 1px solid;
+  margin-bottom: 50px;
+}
+.special-offers-wrapper .offers-box {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.special-offers-wrapper .offers-box .offer-box-image {
+  width: 200px;
+  height: 287px;
+  margin-bottom: 60px;
+}
+.special-offers-wrapper .offers-box .offer-box-image img {
+  width: 199px;
+  height: 287px;
+  object-fit: cover;
+}
+.special-offers-wrapper .offers-box .offer-text {
+  width: 100%;
+  margin-left: 20px;
+}
+.special-offers-wrapper .offers-box .offer-text .offer-text-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.special-offers-wrapper .offers-box .offer-text .offer-text-header h1 {
+  max-width: 250px;
+  min-width: 100%;
+  font-size: 30px;
+  border-bottom: solid 1px black;
+}
+.special-offers-wrapper .offers-box .offer-text .offer-text-header .bgHead {
+  max-width: 250px;
+  min-width: 100%;
+  font-size: 30px;
+  border-bottom: solid 1px black;
+}
+.special-offers-wrapper .offers-box .offer-text .offer-text-header .bsHead {
+  max-width: 250px;
+  min-width: 100%;
+  font-size: 30px;
+  border-bottom: solid 1px black;
+}
+.special-offers-wrapper .offers-box .offer-text .offer-text-header .percent-text {
+  margin-left: 20px;
+  margin-bottom: 45px;
+  min-width: 100%;
+  font-size: 20px;
+  color: #ff7d38;
+}
+.special-offers-wrapper .offers-box .offer-text p {
+  max-width: 100%;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 50px;
+}
+.special-offers-wrapper .offers-box .offer-text .btn-learnMore {
+  width: 133px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #79addc;
+  border-radius: 20px;
+  padding: 10px 6px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .special-offers-wrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
+}
+.blog-wrapper {
+  max-width: 980px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.blog-wrapper h1 {
+  font-size: 30px;
+}
+.blog-wrapper hr {
+  width: 115px;
+  border: 1px solid;
+  margin-bottom: 50px;
+}
+.blog-wrapper .blog-box {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-wrapper .blog-box .blog-date {
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog-wrapper .blog-box .blog-date .day {
+  font-size: 22px;
+  margin: 0;
+}
+.blog-wrapper .blog-box .blog-date .month {
+  font-size: 12px;
+  margin: 0;
+}
+.blog-wrapper .blog-box .blog-hero {
+  width: 100%;
+}
+.blog-wrapper .blog-box .blog-hero .blog-hero-image {
+  width: 100%;
+  height: 260px;
+  margin-bottom: 20px;
+}
+.blog-wrapper .blog-box .blog-hero .blog-hero-image img {
+  width: 100%;
+  height: 259px;
+  object-fit: cover;
+}
+.blog-wrapper .blog-box .blog-hero .blog-text {
+  max-width: 380px;
+}
+.blog-wrapper .blog-box .blog-hero .blog-text .blog-head-text {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog-wrapper .blog-box .blog-hero .blog-text p {
+  font-size: 13px;
+  color: #79addc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .blog-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.contact-wrapper {
+  width: 980px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.contact-wrapper h1 {
+  font-size: 30px;
+}
+.contact-wrapper hr {
+  width: 160px;
+  border: 1px solid;
+  margin-bottom: 50px;
+}
+.contact-wrapper .contact-box {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-wrapper .contact-box .contact-map {
+  width: 400px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.contact-wrapper .contact-box .contact-map img {
+  width: 400px;
+  height: 442px;
+  margin-bottom: 34px;
+  object-fit: cover;
+}
+.contact-wrapper .contact-box .contact-map .map-text {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact-wrapper .contact-form .form-text-input {
+  width: 529px;
+  margin-bottom: 20px;
+}
+.contact-wrapper .contact-form .form-text-input input {
+  width: 529px;
+  height: 60px;
+  background-color: #ebebeb;
+  border: none;
+  border-color: #79addc;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact-wrapper .contact-form .form-text-message-input {
+  width: 529px;
+  margin-bottom: 20px;
+}
+.contact-wrapper .contact-form .form-text-message-input input {
+  width: 529px;
+  height: 220px;
+  background-color: #ebebeb;
+  border: none;
+  border-color: #79addc;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact-wrapper .contact-form .btn-message {
+  width: 168px;
+  height: 60px;
+  background-color: #79addc;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+  .contact-box h1 {
+    margin-left: 20px;
+  }
+  .contact-box hr {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact-box .contact-box {
+    flex-direction: column;
+    background-color: red;
+  }
+  .contact-box .contact-box .contact-form {
+    flex-direction: column;
+  }
+  .contact-box .contact-box .contact-form .btn-message {
+    margin-bottom: 50px;
+  }
+}
 nav {
   max-width: 980px;
   margin: 0 auto;
@@ -69,6 +680,45 @@ nav .links span {
     padding-left: 20px;
   }
   nav .links {
+    float: right;
+    width: 100%;
+    flex-direction: column;
+    padding-right: 20px;
+  }
+}
+.homeNav {
+  max-width: 980px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffffff;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homeNav .logo {
+  width: 100px;
+  height: 50px;
+}
+.homeNav .links a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.homeNav .links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .homeNav .logo {
+    float: none;
+    width: 100%;
+    flex-direction: column;
+    flex: 50%;
+    padding-left: 20px;
+  }
+  .homeNav .links {
     float: right;
     width: 100%;
     flex-direction: column;
@@ -113,6 +763,9 @@ nav .links span {
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 20px;
+  }
+  .footEnd .coLogos {
+    margin-right: 20px;
   }
 }
 .tours-hero {
