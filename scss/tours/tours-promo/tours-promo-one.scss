@@ -1,11 +1,13 @@
 .tours-promo-one {
   max-width: $content-width;
+  margin: 0 auto;
   min-height: 304px;
   // background-color: aqua;
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
   margin-bottom: 100px;
+  
 
   .promo-one {
     height: 304px;

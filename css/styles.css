@@ -32,12 +32,11 @@ p {
   src: url(../css/fonts/Proxima-Nova-Thin.otf);
 }
 #app {
-  max-width: 980px;
   margin: 0 auto;
 }
 
 .banner {
-  max-width: 980px;
+  max-width: 100%;
   height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
   background-position: center;
@@ -242,7 +241,7 @@ p {
 }
 
 .trips {
-  width: 100%;
+  max-width: 980px;
   margin: 0 auto;
   margin-top: -50px;
   min-height: 304px;
@@ -336,9 +335,10 @@ p {
 }
 
 .about {
-  max-width: 980px;
-  margin-top: 110px;
-  margin-bottom: 180px;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .about .about-header h1 {
   margin-bottom: 5px;
@@ -397,6 +397,7 @@ p {
 
 .special-offers-wrapper {
   max-width: 980px;
+  margin: 0 auto;
   padding-top: 105px;
 }
 .special-offers-wrapper h1 {
@@ -485,6 +486,7 @@ p {
 }
 .blog-wrapper {
   max-width: 980px;
+  margin: 0 auto;
   padding-top: 100px;
   margin-bottom: 100px;
 }
@@ -556,6 +558,7 @@ p {
 }
 .contact-wrapper {
   width: 980px;
+  margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -772,6 +775,7 @@ nav .links span {
 }
 .tours-hero {
   max-width: 980px;
+  margin: 0 auto;
   height: 200px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
   background-position: center;
@@ -796,6 +800,7 @@ nav .links span {
 }
 .tours-promo-one {
   max-width: 980px;
+  margin: 0 auto;
   min-height: 304px;
   display: flex;
   justify-content: space-between;

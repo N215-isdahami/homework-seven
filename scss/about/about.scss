@@ -1,7 +1,10 @@
 .about {
-  max-width: $content-width;
-  margin-top: 110px;
-  margin-bottom: 180px;
+  width: $content-width;
+ margin: 0 auto;
+ margin-top: 100px;
+ margin-bottom: 100px;
+  
+  
 
   .about-header {
     h1 {
