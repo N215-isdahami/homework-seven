@@ -1,5 +1,5 @@
 .banner {
-  max-width: 100%;
+  max-width: $content-width;
   height: 500px;
   background-image: linear-gradient(
       rgba($site-black, 0.5),
@@ -14,7 +14,6 @@
   .heroH1 {
     h1 {
       text-align: center;
-      position: relative;
       padding-top: 162px;
       color: white;
       font-size: 60px;

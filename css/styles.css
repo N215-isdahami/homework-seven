@@ -37,7 +37,7 @@ p {
 }
 
 .banner {
-  max-width: 100%;
+  max-width: 980px;
   height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
   background-position: center;
@@ -47,7 +47,6 @@ p {
 }
 .banner .heroH1 h1 {
   text-align: center;
-  position: relative;
   padding-top: 162px;
   color: white;
   font-size: 60px;
@@ -91,6 +90,7 @@ p {
 }
 .bookForm .content-wrapper form {
   width: 100%;
+  margin-bottom: 100px;
 }
 .bookForm .content-wrapper form .textInputs {
   width: 100%;
@@ -242,7 +242,7 @@ p {
 }
 
 .trips {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   margin-top: -50px;
   min-height: 304px;
@@ -332,9 +332,11 @@ p {
   color: white;
   border-radius: 27px;
   text-align: center;
+  cursor: pointer;
 }
 
 .about {
+  max-width: 980px;
   margin-top: 110px;
   margin-bottom: 180px;
 }
@@ -701,7 +703,7 @@ nav .links span {
 }
 .homeNav .links a {
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 50px;
   color: #ffffff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -1111,7 +1113,7 @@ nav .links span {
 .tours-package-hero {
   max-width: 980px;
   height: 300px;
-  background-image: url(../images/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -2,7 +2,7 @@
 @mixin tours-package-hero($bgIsraelHeroImage: url(../images/tour-01.jpg)) {
   max-width: $content-width;
   height: 300px;
-  background-image: $bgIsraelHeroImage;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), $bgIsraelHeroImage;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
